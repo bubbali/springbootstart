@@ -1,0 +1,8 @@
+server:
+  port: 8081
+  
+person:
+  firstName: bubba
+  lastName: li
+  age: 27
+  boss: false

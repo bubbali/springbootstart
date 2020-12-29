@@ -1,14 +1,21 @@
 package com.bubba.bean;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
+//@PropertySource({"classpath:person.properties"})
 @Component
-@ConfigurationProperties(prefix = "person")
+@ConfigurationProperties(prefix = "person") //from Application.properties
+//1. Load the Global configuration 2. Load the specific properties file 
 public class Person {
 	public String firstName;
 	public String lastName;
 	public Integer age;
+	@Override
+	public String toString() {
+		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", boss=" + boss + "]";
+	}
 	public boolean boss;
 	public String getFirstName() {
 		return firstName;

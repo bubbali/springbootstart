@@ -2,7 +2,7 @@ server:
   port: 8081
   
 person:
-  firstName: bubba
+  firstName: bubbaYaml
   lastName: li
   age: 27
   boss: false

@@ -1,2 +1,6 @@
+META-INF/spring-configuration-metadata.json
 com/Application.class
-com/bubba/springbootstart/HelloController.class
+com/bubba/controller/HelloController.class
+com/bubba/service/HelloService.class
+com/bubba/bean/Person.class
+com/bubba/config/MyApp.class

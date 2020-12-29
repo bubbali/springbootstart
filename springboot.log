@@ -1,0 +1,16 @@
+2020-12-29 16:37:01.828  INFO 46002 --- [main] com.ApplicationTest                      : Starting ApplicationTest on 192.168.5.11 with PID 46002 (started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-29 16:37:01.829  INFO 46002 --- [main] com.ApplicationTest                      : The following profiles are active: dev
+2020-12-29 16:37:03.265  INFO 46002 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 16:37:03.623  INFO 46002 --- [main] com.ApplicationTest                      : Started ApplicationTest in 2.124 seconds (JVM running for 2.973)
+2020-12-29 16:37:03.838  INFO 46002 --- [main] com.ApplicationTest                      : Info level
+2020-12-29 16:37:03.839  WARN 46002 --- [main] com.ApplicationTest                      : Warn level
+2020-12-29 16:37:03.839 ERROR 46002 --- [main] com.ApplicationTest                      : Error level
+2020-12-29 16:37:03.851  INFO 46002 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-29 17:06:31.436  INFO 46483 --- [main] com.ApplicationTest                      : Starting ApplicationTest on 192.168.5.11 with PID 46483 (started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-29 17:06:31.438  INFO 46483 --- [main] com.ApplicationTest                      : The following profiles are active: dev
+2020-12-29 17:06:32.881  INFO 46483 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-29 17:06:33.235  INFO 46483 --- [main] com.ApplicationTest                      : Started ApplicationTest in 2.175 seconds (JVM running for 2.998)
+2020-12-29 17:06:33.503  INFO 46483 --- [main] com.ApplicationTest                      : Info level
+2020-12-29 17:06:33.503  WARN 46483 --- [main] com.ApplicationTest                      : Warn level
+2020-12-29 17:06:33.503 ERROR 46483 --- [main] com.ApplicationTest                      : Error level
+2020-12-29 17:06:33.515  INFO 46483 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.bubba.bean.Person",
+      "sourceType": "com.bubba.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.bubba.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.bubba.bean.Person",
+      "defaultValue": false
+    },
+    {
+      "name": "person.first-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bubba.bean.Person"
+    },
+    {
+      "name": "person.last-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bubba.bean.Person"
+    }
+  ],
+  "hints": []
+}

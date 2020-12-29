@@ -1,2 +1,5 @@
-/Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/bubba/springbootstart/HelloController.java
+/Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/bubba/controller/HelloController.java
+/Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/bubba/bean/Person.java
+/Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/bubba/service/HelloService.java
 /Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/Application.java
+/Users/bubba/Documents/Workspace/springbootstart/src/main/java/com/bubba/config/MyApp.java

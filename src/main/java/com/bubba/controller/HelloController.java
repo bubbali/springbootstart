@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloController {
 	@Autowired
 	private Person person;
-	@RequestMapping("/")
+	@RequestMapping("/greetings")
 	public String index() {
 		return "Greetings from Spring boot";
 	}

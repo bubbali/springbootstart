@@ -17,8 +17,21 @@ java -jar target/springbootstart-0.0.1-SNAPSHOT.jar --spring.profiles.active=pro
 1. SLF4j
 2. Logback
 
+## Web
+
+
 Guidence:
 https://spring.io/guides/gs/spring-boot/
 
 Document:
 https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/index.html
+
+Common Application properties:
+https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/html/appendix-application-properties.html#logging.file.name
+
+
+Guide Started:
+https://spring.io/guides
+
+Spring MVC Content:
+https://spring.io/guides/gs/serving-web-content/

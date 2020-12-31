@@ -1,0 +1,594 @@
+2020-12-30 10:16:59.136  INFO 50456 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50456 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:16:59.153  INFO 50456 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:17:00.496  INFO 50456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:17:00.508  INFO 50456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:17:00.509  INFO 50456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:17:00.608  INFO 50456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:17:00.608  INFO 50456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1391 ms
+2020-12-30 10:17:00.832  INFO 50456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:17:01.049  INFO 50456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 10:17:01.061  INFO 50456 --- [main] com.Application                          : Started Application in 2.507 seconds (JVM running for 2.937)
+2020-12-30 10:18:24.133  INFO 50456 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 10:18:24.134  INFO 50456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 10:18:24.140  INFO 50456 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 10:30:45.915  INFO 50637 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50637 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:30:45.917  INFO 50637 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:30:47.163  INFO 50637 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:30:47.176  INFO 50637 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:30:47.176  INFO 50637 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:30:47.255  INFO 50637 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:30:47.255  INFO 50637 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1257 ms
+2020-12-30 10:30:47.474  INFO 50637 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:30:47.663  WARN 50637 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2020-12-30 10:30:47.663  INFO 50637 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:30:47.666  INFO 50637 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-30 10:30:47.676  INFO 50637 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 10:30:47.678 ERROR 50637 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2020-12-30 10:30:55.856  INFO 50456 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:31:01.628  INFO 50644 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50644 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:31:01.630  INFO 50644 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:31:02.795  INFO 50644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:31:02.807  INFO 50644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:31:02.807  INFO 50644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:31:02.883  INFO 50644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:31:02.883  INFO 50644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1195 ms
+2020-12-30 10:31:03.114  INFO 50644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:31:03.315  INFO 50644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 10:31:03.324  INFO 50644 --- [main] com.Application                          : Started Application in 2.082 seconds (JVM running for 2.482)
+2020-12-30 10:31:56.631  INFO 50644 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 10:31:56.632  INFO 50644 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 10:31:56.638  INFO 50644 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 10:37:20.160  INFO 50731 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50731 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:37:20.162  INFO 50731 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:37:21.591  INFO 50731 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:37:21.603  INFO 50731 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:37:21.603  INFO 50731 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:37:21.703  INFO 50731 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:37:21.703  INFO 50731 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1474 ms
+2020-12-30 10:37:22.000  INFO 50731 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:37:22.099  INFO 50731 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 10:37:22.205  WARN 50731 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2020-12-30 10:37:22.205  INFO 50731 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:37:22.208  INFO 50731 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-30 10:37:22.220  INFO 50731 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 10:37:22.223 ERROR 50731 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2020-12-30 10:37:26.591  INFO 50644 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:37:31.528  INFO 50733 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50733 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:37:31.530  INFO 50733 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:37:32.617  INFO 50733 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:37:32.628  INFO 50733 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:37:32.628  INFO 50733 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:37:32.710  INFO 50733 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:37:32.710  INFO 50733 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
+2020-12-30 10:37:32.914  INFO 50733 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:37:32.984  INFO 50733 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 10:37:33.089  INFO 50733 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 10:37:33.098  INFO 50733 --- [main] com.Application                          : Started Application in 1.99 seconds (JVM running for 2.401)
+2020-12-30 10:37:42.219  INFO 50733 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 10:37:42.219  INFO 50733 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 10:37:42.225  INFO 50733 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 10:38:09.087  INFO 50733 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:38:16.828  INFO 50748 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50748 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:38:16.831  INFO 50748 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:38:18.051  INFO 50748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:38:18.064  INFO 50748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:38:18.065  INFO 50748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:38:18.174  INFO 50748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:38:18.174  INFO 50748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1277 ms
+2020-12-30 10:38:18.391  INFO 50748 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:38:18.472  INFO 50748 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 10:38:18.584  INFO 50748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 10:38:18.594  INFO 50748 --- [main] com.Application                          : Started Application in 2.164 seconds (JVM running for 2.538)
+2020-12-30 10:38:22.525  INFO 50748 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 10:38:22.525  INFO 50748 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 10:38:22.532  INFO 50748 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 10:40:42.287  INFO 50748 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:40:52.089  INFO 50917 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 50917 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 10:40:52.092  INFO 50917 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 10:40:53.596  INFO 50917 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 10:40:53.608  INFO 50917 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 10:40:53.608  INFO 50917 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 10:40:53.703  INFO 50917 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 10:40:53.703  INFO 50917 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1527 ms
+2020-12-30 10:40:53.925  INFO 50917 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 10:40:54.012  INFO 50917 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 10:40:54.141  INFO 50917 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 10:40:54.154  INFO 50917 --- [main] com.Application                          : Started Application in 2.517 seconds (JVM running for 2.925)
+2020-12-30 10:40:56.678  INFO 50917 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 10:40:56.678  INFO 50917 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 10:40:56.683  INFO 50917 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 11:17:45.067  INFO 50917 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 11:17:53.454  INFO 51366 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 51366 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 11:17:53.457  INFO 51366 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 11:17:54.830  INFO 51366 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 11:17:54.843  INFO 51366 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 11:17:54.843  INFO 51366 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 11:17:54.951  INFO 51366 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 11:17:54.951  INFO 51366 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1423 ms
+2020-12-30 11:17:55.269  INFO 51366 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 11:17:55.397  INFO 51366 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 11:17:55.666  INFO 51366 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 11:17:55.681  INFO 51366 --- [main] com.Application                          : Started Application in 2.752 seconds (JVM running for 3.212)
+2020-12-30 11:18:25.001  INFO 51366 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 11:18:25.002  INFO 51366 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 11:18:25.007  INFO 51366 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 11:26:29.996  INFO 51366 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 11:38:35.179  INFO 52741 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 52741 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 11:38:35.183  INFO 52741 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 11:38:36.627  INFO 52741 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 11:38:36.644  INFO 52741 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 11:38:36.644  INFO 52741 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 11:38:36.757  INFO 52741 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 11:38:36.757  INFO 52741 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1467 ms
+2020-12-30 11:38:37.013  INFO 52741 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 11:38:37.112  INFO 52741 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 11:38:37.269  INFO 52741 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 11:38:37.280  INFO 52741 --- [main] com.Application                          : Started Application in 2.699 seconds (JVM running for 3.185)
+2020-12-30 11:38:43.935  INFO 52741 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 11:38:43.935  INFO 52741 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 11:38:43.942  INFO 52741 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 11:40:53.043  INFO 52741 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 14:32:09.194  INFO 63198 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 63198 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 14:32:09.197  INFO 63198 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 14:32:10.641  INFO 63198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 14:32:10.654  INFO 63198 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 14:32:10.655  INFO 63198 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 14:32:10.753  INFO 63198 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 14:32:10.754  INFO 63198 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1471 ms
+2020-12-30 14:32:10.974  INFO 63198 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 14:32:11.094  INFO 63198 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 14:32:11.264  INFO 63198 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 14:32:11.275  INFO 63198 --- [main] com.Application                          : Started Application in 2.705 seconds (JVM running for 3.196)
+2020-12-30 14:32:28.372  INFO 63198 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 14:32:28.373  INFO 63198 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 14:32:28.382  INFO 63198 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-12-30 14:34:03.974  INFO 63198 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 14:34:09.461  INFO 63249 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 63249 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 14:34:09.463  INFO 63249 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 14:34:10.585  INFO 63249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 14:34:10.596  INFO 63249 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 14:34:10.597  INFO 63249 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 14:34:10.688  INFO 63249 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 14:34:10.688  INFO 63249 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1165 ms
+2020-12-30 14:34:10.921  INFO 63249 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 14:34:11.027  INFO 63249 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 14:34:11.168  INFO 63249 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 14:34:11.177  INFO 63249 --- [main] com.Application                          : Started Application in 2.103 seconds (JVM running for 2.537)
+2020-12-30 14:34:21.195  INFO 63249 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 14:34:21.196  INFO 63249 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 14:34:21.207  INFO 63249 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-12-30 15:18:46.638  INFO 64440 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64440 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:18:46.642  INFO 64440 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:18:48.083  INFO 64440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:18:48.096  INFO 64440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:18:48.096  INFO 64440 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:18:48.210  INFO 64440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:18:48.210  INFO 64440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1514 ms
+2020-12-30 15:18:48.473  INFO 64440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:18:48.601  INFO 64440 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:18:48.842  WARN 64440 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2020-12-30 15:18:48.843  INFO 64440 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:18:48.848  INFO 64440 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-30 15:18:48.867  INFO 64440 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 15:18:48.870 ERROR 64440 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2020-12-30 15:23:26.020  INFO 64531 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64531 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:23:26.023  INFO 64531 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:23:27.182  INFO 64531 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:23:27.192  INFO 64531 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:23:27.192  INFO 64531 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:23:27.276  INFO 64531 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:23:27.276  INFO 64531 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
+2020-12-30 15:23:27.495  INFO 64531 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:23:27.591  INFO 64531 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:23:27.744  INFO 64531 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:23:27.754  INFO 64531 --- [main] com.Application                          : Started Application in 2.142 seconds (JVM running for 2.52)
+2020-12-30 15:23:33.258  INFO 64531 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:23:33.259  INFO 64531 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:23:33.269  INFO 64531 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-12-30 15:26:02.574  INFO 64531 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:26:11.221  INFO 64604 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64604 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:26:11.223  INFO 64604 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:26:12.429  INFO 64604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:26:12.442  INFO 64604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:26:12.442  INFO 64604 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:26:12.541  INFO 64604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:26:12.542  INFO 64604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1255 ms
+2020-12-30 15:26:12.790  INFO 64604 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:26:12.891  INFO 64604 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:26:13.094  INFO 64604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:26:13.112  INFO 64604 --- [main] com.Application                          : Started Application in 2.271 seconds (JVM running for 2.663)
+2020-12-30 15:26:14.306  INFO 64604 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:26:14.306  INFO 64604 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:26:14.313  INFO 64604 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 15:34:14.546  INFO 64604 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:34:24.219  INFO 64818 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64818 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:34:24.221  INFO 64818 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:34:25.955  INFO 64818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:34:25.971  INFO 64818 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:34:25.971  INFO 64818 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:34:26.096  INFO 64818 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:34:26.096  INFO 64818 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1777 ms
+2020-12-30 15:34:26.418  INFO 64818 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:34:26.544  INFO 64818 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:34:26.720  INFO 64818 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:34:26.734  INFO 64818 --- [main] com.Application                          : Started Application in 3.127 seconds (JVM running for 4.015)
+2020-12-30 15:34:40.081  INFO 64818 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:34:40.082  INFO 64818 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:34:40.087  INFO 64818 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 15:40:05.146  INFO 64818 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:40:11.550  INFO 64910 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64910 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:40:11.553  INFO 64910 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:40:12.950  INFO 64910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:40:12.964  INFO 64910 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:40:12.964  INFO 64910 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:40:13.099  INFO 64910 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:40:13.099  INFO 64910 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1480 ms
+2020-12-30 15:40:13.515  INFO 64910 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:40:13.641  INFO 64910 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:40:13.835  INFO 64910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:40:13.848  INFO 64910 --- [main] com.Application                          : Started Application in 2.792 seconds (JVM running for 3.298)
+2020-12-30 15:40:21.208  INFO 64910 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:40:21.208  INFO 64910 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:40:21.214  INFO 64910 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 15:40:42.801  INFO 64910 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:41:27.531  INFO 64938 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64938 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:41:27.533  INFO 64938 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:41:28.703  INFO 64938 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:41:28.714  INFO 64938 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:41:28.714  INFO 64938 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:41:28.803  INFO 64938 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:41:28.803  INFO 64938 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1201 ms
+2020-12-30 15:41:29.041  INFO 64938 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:41:29.125  INFO 64938 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:41:29.270  INFO 64938 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:41:29.280  INFO 64938 --- [main] com.Application                          : Started Application in 2.137 seconds (JVM running for 2.527)
+2020-12-30 15:41:32.339  INFO 64938 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:41:32.339  INFO 64938 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:41:32.347  INFO 64938 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-30 15:41:38.937  INFO 64938 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:42:09.690  INFO 64946 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64946 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:42:09.693  INFO 64946 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:42:10.992  INFO 64946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:42:11.005  INFO 64946 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:42:11.005  INFO 64946 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:42:11.092  INFO 64946 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:42:11.092  INFO 64946 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2020-12-30 15:42:11.315  INFO 64946 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:42:11.408  INFO 64946 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:42:11.555  INFO 64946 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-12-30 15:42:11.566  INFO 64946 --- [main] com.Application                          : Started Application in 2.382 seconds (JVM running for 2.919)
+2020-12-30 15:42:13.895  INFO 64946 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:42:13.896  INFO 64946 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:42:13.902  INFO 64946 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 15:42:33.810  INFO 64946 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:45:19.672  INFO 64990 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 64990 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 15:45:19.675  INFO 64990 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 15:45:21.061  INFO 64990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 15:45:21.075  INFO 64990 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 15:45:21.075  INFO 64990 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 15:45:21.181  INFO 64990 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 15:45:21.181  INFO 64990 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1439 ms
+2020-12-30 15:45:21.420  INFO 64990 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 15:45:21.534  INFO 64990 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 15:45:21.688  INFO 64990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 15:45:21.698  INFO 64990 --- [main] com.Application                          : Started Application in 2.585 seconds (JVM running for 3.114)
+2020-12-30 15:45:59.835  INFO 64990 --- [http-nio-8082-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 15:45:59.835  INFO 64990 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 15:45:59.844  INFO 64990 --- [http-nio-8082-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-12-30 16:04:42.568  INFO 65374 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65374 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:04:42.571  INFO 65374 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:04:43.919  INFO 65374 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:04:43.932  INFO 65374 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:04:43.932  INFO 65374 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:04:44.030  INFO 65374 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:04:44.030  INFO 65374 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1388 ms
+2020-12-30 16:04:44.261  INFO 65374 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:04:44.388  INFO 65374 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:04:44.554  WARN 65374 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2020-12-30 16:04:44.555  INFO 65374 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:04:44.559  INFO 65374 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-12-30 16:04:44.573  INFO 65374 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 16:04:44.575 ERROR 65374 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2020-12-30 16:07:31.139  INFO 64990 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:09:29.351  INFO 65455 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65455 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:09:29.353  INFO 65455 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:09:30.776  INFO 65455 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:09:30.786  INFO 65455 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:09:30.786  INFO 65455 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:09:30.865  INFO 65455 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:09:30.865  INFO 65455 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1437 ms
+2020-12-30 16:09:31.081  INFO 65455 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:09:31.157  INFO 65455 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:09:31.305  INFO 65455 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:09:31.315  INFO 65455 --- [main] com.Application                          : Started Application in 2.354 seconds (JVM running for 2.73)
+2020-12-30 16:09:46.440  INFO 65455 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:09:46.440  INFO 65455 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:09:46.447  INFO 65455 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 16:10:36.820  INFO 65455 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:10:42.539  INFO 65518 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65518 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:10:42.541  INFO 65518 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:10:43.775  INFO 65518 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:10:43.786  INFO 65518 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:10:43.787  INFO 65518 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:10:43.869  INFO 65518 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:10:43.870  INFO 65518 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1269 ms
+2020-12-30 16:10:44.108  INFO 65518 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:10:44.207  INFO 65518 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:10:44.343  INFO 65518 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:10:44.353  INFO 65518 --- [main] com.Application                          : Started Application in 2.224 seconds (JVM running for 2.622)
+2020-12-30 16:10:49.327  INFO 65518 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:10:49.327  INFO 65518 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:10:49.332  INFO 65518 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 16:11:08.648  INFO 65518 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:14:39.951  INFO 65580 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65580 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:14:39.953  INFO 65580 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:14:41.250  INFO 65580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:14:41.263  INFO 65580 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:14:41.263  INFO 65580 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:14:41.363  INFO 65580 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:14:41.364  INFO 65580 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2020-12-30 16:14:41.607  INFO 65580 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:14:41.724  INFO 65580 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:14:41.887  INFO 65580 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:14:41.896  INFO 65580 --- [main] com.Application                          : Started Application in 2.444 seconds (JVM running for 2.863)
+2020-12-30 16:14:47.230  INFO 65580 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:14:47.230  INFO 65580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:14:47.238  INFO 65580 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-30 16:17:22.144  INFO 65580 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:23:40.332  INFO 65728 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65728 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:23:40.335  INFO 65728 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:23:41.624  INFO 65728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:23:41.637  INFO 65728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:23:41.637  INFO 65728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:23:41.727  INFO 65728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:23:41.727  INFO 65728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1321 ms
+2020-12-30 16:23:41.958  INFO 65728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:23:42.072  INFO 65728 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:23:42.230  INFO 65728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:23:42.241  INFO 65728 --- [main] com.Application                          : Started Application in 2.464 seconds (JVM running for 2.887)
+2020-12-30 16:23:55.222  INFO 65728 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:23:55.223  INFO 65728 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:23:55.230  INFO 65728 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 16:26:15.004  INFO 65728 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:26:23.428  INFO 65780 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65780 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:26:23.430  INFO 65780 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:26:24.685  INFO 65780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:26:24.696  INFO 65780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:26:24.696  INFO 65780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:26:24.784  INFO 65780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:26:24.784  INFO 65780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1279 ms
+2020-12-30 16:26:25.027  INFO 65780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:26:25.144  INFO 65780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:26:25.301  INFO 65780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:26:25.313  INFO 65780 --- [main] com.Application                          : Started Application in 2.377 seconds (JVM running for 2.814)
+2020-12-30 16:26:34.589  INFO 65780 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:26:34.589  INFO 65780 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:26:34.595  INFO 65780 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 16:29:34.403  INFO 65780 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:29:39.657  INFO 65845 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 65845 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:29:39.659  INFO 65845 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:29:40.855  INFO 65845 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:29:40.865  INFO 65845 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:29:40.866  INFO 65845 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:29:40.941  INFO 65845 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:29:40.941  INFO 65845 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1223 ms
+2020-12-30 16:29:41.185  INFO 65845 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:29:41.295  INFO 65845 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:29:41.443  INFO 65845 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:29:41.453  INFO 65845 --- [main] com.Application                          : Started Application in 2.19 seconds (JVM running for 2.6)
+2020-12-30 16:29:46.063  INFO 65845 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:29:46.064  INFO 65845 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:29:46.069  INFO 65845 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 16:50:15.483  INFO 65845 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:50:21.606  INFO 66526 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 66526 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:50:21.608  INFO 66526 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:50:22.997  INFO 66526 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:50:23.010  INFO 66526 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:50:23.010  INFO 66526 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:50:23.121  INFO 66526 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:50:23.122  INFO 66526 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1447 ms
+2020-12-30 16:50:23.399  INFO 66526 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:50:23.521  INFO 66526 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:50:23.673  INFO 66526 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:50:23.684  INFO 66526 --- [main] com.Application                          : Started Application in 2.495 seconds (JVM running for 2.876)
+2020-12-30 16:50:31.489  INFO 66526 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:50:31.490  INFO 66526 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:50:31.499  INFO 66526 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-12-30 16:53:40.938  INFO 66526 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:53:48.100  INFO 66578 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 66578 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:53:48.102  INFO 66578 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:53:49.300  INFO 66578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:53:49.313  INFO 66578 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:53:49.313  INFO 66578 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:53:49.399  INFO 66578 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:53:49.399  INFO 66578 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1234 ms
+2020-12-30 16:53:49.637  INFO 66578 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:53:49.742  INFO 66578 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:53:49.902  INFO 66578 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:53:49.914  INFO 66578 --- [main] com.Application                          : Started Application in 2.249 seconds (JVM running for 2.681)
+2020-12-30 16:53:57.375  INFO 66578 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:53:57.376  INFO 66578 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:53:57.381  INFO 66578 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 16:55:13.516  INFO 66578 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:55:18.835  INFO 66598 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 66598 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 16:55:18.837  INFO 66598 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 16:55:20.109  INFO 66598 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 16:55:20.126  INFO 66598 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 16:55:20.126  INFO 66598 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 16:55:20.246  INFO 66598 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 16:55:20.247  INFO 66598 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1353 ms
+2020-12-30 16:55:20.511  INFO 66598 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 16:55:20.606  INFO 66598 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 16:55:20.856  INFO 66598 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 16:55:20.871  INFO 66598 --- [main] com.Application                          : Started Application in 2.428 seconds (JVM running for 2.787)
+2020-12-30 16:55:22.539  INFO 66598 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 16:55:22.540  INFO 66598 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 16:55:22.545  INFO 66598 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 17:11:09.324  INFO 66598 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:11:16.919  INFO 66974 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 66974 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:11:16.921  INFO 66974 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:11:18.249  INFO 66974 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:11:18.267  INFO 66974 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:11:18.268  INFO 66974 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:11:18.396  INFO 66974 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:11:18.397  INFO 66974 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1413 ms
+2020-12-30 17:11:18.669  INFO 66974 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:11:18.820  INFO 66974 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:11:19.092  INFO 66974 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:11:19.109  INFO 66974 --- [main] com.Application                          : Started Application in 2.588 seconds (JVM running for 2.999)
+2020-12-30 17:11:24.428  INFO 66974 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:11:24.428  INFO 66974 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:11:24.432  INFO 66974 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-12-30 17:15:22.394  INFO 66974 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:15:28.751  INFO 67022 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67022 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:15:28.754  INFO 67022 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:15:30.005  INFO 67022 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:15:30.017  INFO 67022 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:15:30.018  INFO 67022 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:15:30.117  INFO 67022 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:15:30.117  INFO 67022 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1303 ms
+2020-12-30 17:15:30.359  INFO 67022 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:15:30.469  INFO 67022 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:15:30.611  INFO 67022 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:15:30.621  INFO 67022 --- [main] com.Application                          : Started Application in 2.268 seconds (JVM running for 2.669)
+2020-12-30 17:15:36.339  INFO 67022 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:15:36.340  INFO 67022 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:15:36.346  INFO 67022 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 17:18:01.030  INFO 67022 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:18:10.538  INFO 67074 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67074 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:18:10.540  INFO 67074 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:18:11.784  INFO 67074 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:18:11.795  INFO 67074 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:18:11.795  INFO 67074 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:18:11.882  INFO 67074 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:18:11.883  INFO 67074 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1285 ms
+2020-12-30 17:18:12.133  INFO 67074 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:18:12.240  INFO 67074 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:18:12.395  INFO 67074 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:18:12.407  INFO 67074 --- [main] com.Application                          : Started Application in 2.264 seconds (JVM running for 2.623)
+2020-12-30 17:18:26.208  INFO 67074 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:18:26.208  INFO 67074 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:18:26.215  INFO 67074 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 17:42:45.219  INFO 67074 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:42:51.520  INFO 67395 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67395 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:42:51.522  INFO 67395 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:42:52.751  INFO 67395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:42:52.768  INFO 67395 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:42:52.769  INFO 67395 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:42:52.870  INFO 67395 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:42:52.870  INFO 67395 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1286 ms
+2020-12-30 17:42:53.121  INFO 67395 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:42:53.221  INFO 67395 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:42:53.395  INFO 67395 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:42:53.407  INFO 67395 --- [main] com.Application                          : Started Application in 2.296 seconds (JVM running for 2.693)
+2020-12-30 17:42:58.475  INFO 67395 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:42:58.475  INFO 67395 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:42:58.484  INFO 67395 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-30 17:47:49.184  INFO 67395 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:49:21.208  INFO 67581 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67581 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:49:21.210  INFO 67581 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:49:22.480  INFO 67581 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:49:22.493  INFO 67581 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:49:22.493  INFO 67581 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:49:22.603  INFO 67581 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:49:22.603  INFO 67581 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2020-12-30 17:49:22.876  INFO 67581 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:49:23.004  INFO 67581 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:49:23.259  INFO 67581 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:49:23.283  INFO 67581 --- [main] com.Application                          : Started Application in 2.508 seconds (JVM running for 2.858)
+2020-12-30 17:49:30.858  INFO 67581 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:49:30.858  INFO 67581 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:49:30.864  INFO 67581 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-12-30 17:49:30.882  WARN 67581 --- [http-nio-8082-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-12-30 17:49:36.976  WARN 67581 --- [http-nio-8082-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-12-30 17:57:23.867  INFO 67581 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:57:30.126  INFO 67814 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67814 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 17:57:30.141  INFO 67814 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 17:57:31.825  INFO 67814 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 17:57:31.843  INFO 67814 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:57:31.844  INFO 67814 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 17:57:31.961  INFO 67814 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:57:31.961  INFO 67814 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1750 ms
+2020-12-30 17:57:32.267  INFO 67814 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:57:32.409  INFO 67814 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 17:57:32.612  INFO 67814 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 17:57:32.626  INFO 67814 --- [main] com.Application                          : Started Application in 3.034 seconds (JVM running for 3.471)
+2020-12-30 17:57:43.266  INFO 67814 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:57:43.266  INFO 67814 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:57:43.271  INFO 67814 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-12-30 18:07:35.439  INFO 67814 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 18:07:43.401  INFO 67994 --- [main] com.Application                          : Starting Application on 192.168.5.11 with PID 67994 (/Users/bubba/Documents/Workspace/springbootstart/target/classes started by bubba in /Users/bubba/Documents/Workspace/springbootstart)
+2020-12-30 18:07:43.403  INFO 67994 --- [main] com.Application                          : The following profiles are active: dev
+2020-12-30 18:07:44.937  INFO 67994 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-12-30 18:07:44.950  INFO 67994 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 18:07:44.950  INFO 67994 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-12-30 18:07:45.043  INFO 67994 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
+2020-12-30 18:07:45.043  INFO 67994 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2020-12-30 18:07:45.325  INFO 67994 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 18:07:45.439  INFO 67994 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [public/index.html]
+2020-12-30 18:07:45.584  INFO 67994 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/crud'
+2020-12-30 18:07:45.598  INFO 67994 --- [main] com.Application                          : Started Application in 2.627 seconds (JVM running for 3.005)
+2020-12-30 18:07:56.514  INFO 67994 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 18:07:56.514  INFO 67994 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 18:07:56.522  INFO 67994 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-12-30 18:07:57.390  WARN 67994 --- [http-nio-8082-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [133] milliseconds.

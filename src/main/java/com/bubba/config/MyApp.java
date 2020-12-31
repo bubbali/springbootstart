@@ -7,7 +7,7 @@ import com.bubba.service.HelloService;
 /**
  * 
  * @author bubba
- * 配置类
+ * Configuration
  * Before: bean.xml
  * After: @Configuraion
  *
